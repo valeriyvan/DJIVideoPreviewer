@@ -1,0 +1,8 @@
+use_frameworks!
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'DJIVideoPreviewer_Example' do
+  pod 'DJIVideoPreviewer', :path => '../'
+  pod 'DJI-SDK-iOS', '~> 4.0’
+end
